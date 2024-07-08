@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    background-color: var(--background-page);
+    font-family: 'Inter';
+    font-size: 12px;
+}
+
+ .main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container{
+    width: 310px;
+    background-color: var(--background-main);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.container .img{
+    border-radius: 100%;
+    width: 75px;
+    margin: 0 0 15px 0;
+}
+
+.container .name{
+    color: var(--font-normal-color);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.container .address{
+    color: var(--font-accent-color);
+    margin: 5px 0 20px 0;
+    font-weight: 600;
+}
+
+.container .description{
+    color: var(--font-normal-color);
+    margin: 0 0 15px 0;
+}
+
+.container .button-link{
+    background-color: var(--button-color);
+    color: var(--font-normal-color);
+    height: 40px;
+    width: 250px;
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    border-radius: 7px;
+}
+
+.container .button-link:hover{
+    background-color: var(--font-accent-color);
+    color: var(--background-page);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    text-align: center;
+    font-size: 11px;
+}
+
+.footer a{
+    color: hsl(228, 45%, 44%);
+}

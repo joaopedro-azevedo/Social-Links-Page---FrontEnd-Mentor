@@ -1,0 +1,9 @@
+:root{
+    --background-page: hsl(0, 0%, 8%);
+    --background-main: hsl(0, 0%, 12%);
+    
+    --button-color: hsl(0, 0%, 20%);
+
+    --font-normal-color: hsl(0, 0%, 100%);
+    --font-accent-color: hsl(75, 94%, 57%);
+}
